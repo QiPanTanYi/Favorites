@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>✨全栈收藏夹✨</title>
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="icon" href="./image/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div id="rainBox"></div>
+    <!-- 会定期维护该站点，有事直接喊我就行 -->
+    <div class="content" id="linkContainer"></div>
+    <script src="raindrop.js"></script>
+    <script src="./links.js"></script>
+    <script>
+      // 生成链接
+      var linkContainer = document.getElementById("linkContainer");
+      links.forEach(function (link) {
+        var a = document.createElement("a");
+        a.href = link.url;
+        a.textContent = link.text;
+        a.style.color = "white";
+        a.style.fontSize = "32px";
+        var div = document.createElement("div");
+        div.classList.add("content1");
+        div.appendChild(a);
+        linkContainer.appendChild(div);
+      });
+    </script>
+  </body>
+</html>

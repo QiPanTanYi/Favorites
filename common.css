@@ -1,0 +1,64 @@
+    body {
+        background-size: cover;
+        background-image: url("./image/bg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 0 0;
+        overflow-x: hidden;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html{
+        cursor: url("./image/arrow.png"),auto;
+    }
+    input,a,p,button,textarea,ul,li{
+        cursor:url("./image/click.png"),pointer;
+    }
+
+    a {
+        color: #ffffff; /* 设置超链接默认的文本颜色 */
+        text-decoration: underline;
+        border-bottom: 1px solid #000;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
+    a:hover {
+        text-decoration-color: #fff; /* 设置鼠标悬停时下划线的颜色为白色 */
+    }
+    .content {
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+    }
+    #rainBox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+    }
+
+    .rain {
+        position: absolute;
+        width: 2px;
+        height: 50px;
+        background: linear-gradient(rgb(249, 249, 249), rgba(221, 255, 2, 0.8));
+    }
+
+    .content1 {
+        width: 100vw;
+        overflow: hidden;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 100px;
+        text-decoration: none;
+        /* text-decoration-color: white; */
+        font-weight: bold; /* 设置字体加粗 */
+    }
+

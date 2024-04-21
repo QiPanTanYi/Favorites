@@ -6,11 +6,11 @@
 
 ​	1. PC端
 
-![PC](Document/show.gif)
+![PC](Document/pc.gif)
 
-	2. 移动端
+​	2.移动端
 
-![phone](Document/show.gif)
+<img src="Document/mobile.jpg" alt="phone" width="35%">
 
 ​		所有的收藏信息在[links.js](https://github.com/QiPanTanYi/Favorites/blob/main/links.js)中进行编辑排序，可以clone该仓库或者fork一份进行Github Pages搭建。
 

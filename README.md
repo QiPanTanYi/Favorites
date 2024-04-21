@@ -8,7 +8,7 @@
 
 ![PC](Document/pc.gif)
 
-​	2.移动端
+​	2. 移动端
 
 <img src="Document/mobile.jpg" alt="phone" width="35%">
 

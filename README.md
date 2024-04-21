@@ -1,6 +1,8 @@
 # Favorites个人收藏夹网页
 
-![PC](Document/icon.png)
+<div style="text-align:center; background-color:#02A9F4; padding: 10px;">
+    <img src="Document/icon.png" alt="PC" width="50%" height="50%">
+</div>
 
 ### 项目展示
 
@@ -10,7 +12,9 @@
 
 ​	2. 移动端
 
-<img src="Document/mobile.jpg" alt="phone" width="35%">
+<div style="text-align:center;">
+    <img src="Document/mobile.jpg" alt="phone" width="35%" height="35%">
+</div>
 
 ​		所有的收藏信息在[links.js](https://github.com/QiPanTanYi/Favorites/blob/main/links.js)中进行编辑排序，可以clone该仓库或者fork一份进行Github Pages搭建。
 

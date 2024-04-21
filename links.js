@@ -151,6 +151,21 @@ var links = [
       text: "GitHub",
       url: "https://github.com/",
   },
+
+  {
+    text: "昇腾社区",
+    url: "https://www.hiascend.com/profile-signin",
+  },
+  
+  {
+    text: "和鲸社区",
+    url: "https://www.heywhale.com/home",
+  },
+  
+  {
+    text: "阿里云天池",
+    url: "https://tianchi.aliyun.com/",
+  },
   {
       text: "ChatGPT(官网,国内无法访问)",
       url: "https://chat.openai.com/chat",

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
     <title>✨全栈收藏夹✨</title>
     <link rel="stylesheet" href="./common.css" />
     <link rel="icon" href="./image/favicon.ico" type="image/x-icon" />
@@ -14,18 +17,42 @@
     <script src="raindrop.js"></script>
     <script src="./links.js"></script>
     <script>
-      // 生成链接
-      var linkContainer = document.getElementById("linkContainer");
-      links.forEach(function (link) {
-        var a = document.createElement("a");
-        a.href = link.url;
-        a.textContent = link.text;
-        a.style.color = "white";
-        a.style.fontSize = "32px";
-        var div = document.createElement("div");
-        div.classList.add("content1");
-        div.appendChild(a);
-        linkContainer.appendChild(div);
+      function generateLinks() {
+        var linkContainer = document.getElementById("linkContainer");
+        linkContainer.innerHTML = ""; // 清空容器内容
+
+        var screenWidth = window.innerWidth;
+        console.log("屏幕宽度: " + screenWidth);
+
+        var fontSize = screenWidth <= 600 ? "19px" : "32px";
+        console.log("字体大小: " + fontSize);
+
+        var lineHeight = screenWidth <= 600 ? "50px" : "100px"; // 设置移动端和PC端的行高
+        console.log("行高: " + lineHeight);
+
+        links.forEach(function (link) {
+          var a = document.createElement("a");
+          a.href = link.url;
+          a.textContent = link.text;
+          a.style.color = "white";
+          a.style.fontSize = fontSize;
+
+          var div = document.createElement("div");
+          div.classList.add("content1");
+          div.style.lineHeight = lineHeight; // 设置动态行高
+          div.appendChild(a);
+          linkContainer.appendChild(div);
+        });
+      }
+
+      // 页面加载时生成链接
+      document.addEventListener("DOMContentLoaded", function () {
+        generateLinks();
+      });
+
+      // 窗口大小变化时重新计算字体大小和行高
+      window.addEventListener("resize", function () {
+        generateLinks();
       });
     </script>
   </body>

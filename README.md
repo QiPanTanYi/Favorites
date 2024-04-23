@@ -1,7 +1,7 @@
 # Favorites个人收藏夹网页
 
 <div style="text-align:center; background-color:#02A9F4; padding: 10px;">
-    <img src="Document/icon.png" alt="PC" width="50%" height="50%">
+    <img src="Document/icon.png" alt="icon" width="50%" height="50%">
 </div>
 
 ### 项目展示

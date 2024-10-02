@@ -10,12 +10,20 @@ var links = [
       url: "https://chat18.aichatos.xyz/",
   },
   {
+    text: "v0.dev",
+    url: "https://v0.dev/",
+  },
+  {
       text: "Kimi.ai",
       url: "https://kimi.moonshot.cn/",
   },
   {
     text: "有道翻译",
     url: "https://fanyi.youdao.com/",
+  },
+    {
+    text: "openui.fly生成web前端",
+    url: "https://openui.fly.dev/ai/new",
   },
   {
     text: "icon生成器",
@@ -45,9 +53,21 @@ var links = [
     text: "Flutter 文档",
     url: "https://flutter.cn/docs",
   },
+    {
+    text: "多种语言学习网{^u^}",
+    url: "https://exercism.org/dashboard",
+  },
+    {
+    text: "Vim",
+    url: "https://zhuanlan.zhihu.com/p/628940845",
+  },
   {
     text: "C语言",
     url: "https://www.runoob.com/cprogramming/c-data-types.html",
+  },
+  {
+    text: "Rust",
+    url: "https://www.bilibili.com/video/BV1hp4y1k7SV",
   },
   {
     text: "uni-app文档",
@@ -80,6 +100,10 @@ var links = [
   {
     text: "React文档",
     url: "https://www.ltonus.com/react/docs/getting-started.html",
+  },
+    {
+    text: "Tailwindcss",
+    url: "https://tailwind.nodejs.cn/docs/installation",
   },
   {
     text: "Sass文档",
@@ -135,6 +159,10 @@ var links = [
       text: "CSDN社区",
       url: "https://www.csdn.net/c/?spm=1001.2101.3001.6068",
   },
+    {
+    text: "魔塔社区",
+    url: "https://modelscope.cn/home",
+  },
   {
       text: "掘金社区",
       url: "https://juejin.cn/",
@@ -151,7 +179,10 @@ var links = [
       text: "GitHub",
       url: "https://github.com/",
   },
-
+  {
+    text: "免费图片素材Pexels",
+    url: "https://www.pexels.com/zh-cn/",
+  },
   {
     text: "昇腾社区",
     url: "https://www.hiascend.com/profile-signin",

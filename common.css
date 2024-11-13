@@ -15,7 +15,7 @@
     html{
         cursor: url("./image/arrow.png"),auto;
     }
-    input,a,p,button,textarea,ul,li{
+    input,a,p,button,textarea,ul,li,label{
         cursor:url("./image/click.png"),pointer;
     }
 
@@ -73,7 +73,27 @@
         text-align: center;
         line-height: 100px;
         text-decoration: none;
-        /* text-decoration-color: white; */
-        font-weight: bold; /* 设置字体加粗 */
+        font-weight: bold;
     }
 
+    #open-new-tab-option label {
+        color: #b0a8a8;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+        user-select: none;
+    }
+    @media (max-width: 768px) {
+        #open-new-tab-option {
+            display: none;
+        }
+    }   
+    #back-to-top:hover path {
+        fill: #e0f5da;
+    }
+    @media (min-width: 768px) {
+        #back-to-top svg {
+            width: 50px;
+            height: 50px;
+        }
+    }  
+    

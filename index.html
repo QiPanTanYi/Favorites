@@ -12,13 +12,35 @@
 
   <body>
     <a href="https://github.com/QiPanTanYi/Favorites">
-      <img src="./image/github.svg" alt="github" class="github" />
+      <img src="./image/github.svg" alt="GitHub仓库地址" class="github" />
     </a>
     <div id="rainBox"></div>
     <!-- 会定期维护该站点，有事直接喊我就行 -->
     <div class="content" id="linkContainer"></div>
+    <!-- 右下角选择项 -->
+    <div id="settings-container" style="position: fixed; bottom: 20px; right: 20px; text-align: center;">
+      <!-- 回到顶部按钮 -->
+      <div id="back-to-top" style="margin-bottom: 10px; cursor: pointer;">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L3 11h6v9h6v-9h6L12 2z" fill="#ffffff"/>
+          </svg>
+      </div>
+
+      <!-- 新的对话框打开选项 -->
+      <div id="open-new-tab-option" style="background-color: #f0f0f0; padding: 10px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2); color: #ffffff; font-family: 'Trebuchet MS', Arial, sans-serif;">
+          <label>
+              <input type="checkbox" id="newTabCheckbox">
+              新窗口打开
+          </label>
+      </div>
+  </div>
+
+  <!-- 引入新窗口跳转的 JavaScript 文件 -->
+  <script src="openLinksInNewTab.js"></script>
+    </div>
     <script src="raindrop.js"></script>
     <script src="./links.js"></script>
+
     <script>
       function generateLinks() {
         var linkContainer = document.getElementById("linkContainer");

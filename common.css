@@ -15,7 +15,7 @@
     html{
         cursor: url("./image/arrow.png"),auto;
     }
-    input,a,p,button,textarea,ul,li,label{
+    input,a,p,button,textarea,ul,li,label,svg {
         cursor:url("./image/click.png"),pointer;
     }
 

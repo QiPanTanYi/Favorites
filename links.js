@@ -5,9 +5,10 @@
 
 
 var links = [
+
   {
-      text: "ChatGPT(免费)",
-      url: "https://chat18.aichatos.xyz/",
+      text: "DeepSeek",
+      url: "https://chat.deepseek.com/",
   },
   {
     text: "v0.dev",

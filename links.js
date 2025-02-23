@@ -22,9 +22,13 @@ var links = [
     text: "有道翻译",
     url: "https://fanyi.youdao.com/",
   },
-    {
+  {
     text: "openui.fly生成web前端",
     url: "https://openui.fly.dev/ai/new",
+  },
+  {
+    text: "360查字体版权",
+    url: "https://fonts.safe.360.cn/",
   },
   {
     text: "icon生成器",
@@ -75,8 +79,16 @@ var links = [
     url: "https://uniapp.dcloud.net.cn/component/",
   },
   {
+    text: "GSAP前端动画",
+    url: "https://gsap.com/",
+  },
+  {
     text: "ECharts文档",
     url: "https://echarts.apache.org/zh/index.html",
+  },
+  {
+    text: "图片转换格式",
+    url: "https://convertio.co/zh/",
   },
   {
     text: "数仓笔记",

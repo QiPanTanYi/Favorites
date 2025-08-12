@@ -47,13 +47,13 @@
         linkContainer.innerHTML = ""; // 清空容器内容
 
         var screenWidth = window.innerWidth;
-        console.log("屏幕宽度: " + screenWidth);
+        // console.log("屏幕宽度: " + screenWidth);
 
         var fontSize = screenWidth <= 600 ? "19px" : "32px";
-        console.log("字体大小: " + fontSize);
+        // console.log("字体大小: " + fontSize);
 
         var lineHeight = screenWidth <= 600 ? "50px" : "100px"; // 设置移动端和PC端的行高
-        console.log("行高: " + lineHeight);
+        // console.log("行高: " + lineHeight);
 
         links.forEach(function (link) {
           var a = document.createElement("a");

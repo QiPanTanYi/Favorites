@@ -15,6 +15,10 @@ var links = [
     url: "https://v0.dev/",
   },
   {
+    text: "Qwerty Learner(练习打字)",
+    url: "https://qwerty.kaiyi.cool/",
+  },
+  {
       text: "Kimi.ai",
       url: "https://kimi.moonshot.cn/",
   },
@@ -47,8 +51,8 @@ var links = [
     url: "https://dysms.console.aliyun.com/overview",
   },
   {
-    text: "Qwerty Learner(练习打字)",
-    url: "https://qwerty.kaiyi.cool/",
+    text: "Taro",
+    url: "https://docs.taro.zone/docs/",
   },
     {
     text: "MinIO 文档",
@@ -58,17 +62,13 @@ var links = [
     text: "Flutter 文档",
     url: "https://flutter.cn/docs",
   },
-    {
+  {
     text: "多种语言学习网{^u^}",
     url: "https://exercism.org/dashboard",
   },
-    {
+  {
     text: "Vim",
     url: "https://zhuanlan.zhihu.com/p/628940845",
-  },
-  {
-    text: "C语言",
-    url: "https://www.runoob.com/cprogramming/c-data-types.html",
   },
   {
     text: "Rust",
@@ -89,6 +89,10 @@ var links = [
   {
     text: "图片转换格式",
     url: "https://convertio.co/zh/",
+  },
+  {
+    text: "Gin",
+    url: "https://gin-gonic.com/zh-cn/docs/users/",
   },
   {
     text: "数仓笔记",
@@ -112,7 +116,11 @@ var links = [
   },
   {
     text: "React文档",
-    url: "https://www.ltonus.com/react/docs/getting-started.html",
+    url: "https://zh-hans.react.dev/learn",
+  },
+  {
+    text: "React Native",
+    url: "https://reactnative.cn/docs/getting-started",
   },
     {
     text: "Tailwindcss",
@@ -123,8 +131,36 @@ var links = [
     url: "https://www.sass.hk/docs/",
   },
   {
+    text: "微信小程序",
+    url: "https://developers.weixin.qq.com/miniprogram/dev/framework/MINA.html",
+  },
+  {
     text: "Element文档",
     url: "https://element-plus.org/zh-CN/#/zh-CN",
+  },
+  {
+    text: "NestJS",
+    url: "https://nestjs.bootcss.com/",
+  },
+  {
+    text: "Turborepo",
+    url: "https://turborepo-zh.vercel.app/getting-started/add-to-project.html",
+  },
+  {
+    text: "Nginx",
+    url: "https://nginx.org/",
+  },
+  {
+    text: "鸿蒙 HarmonyOS",
+    url: "https://developer.huawei.com/consumer/cn/develop/",
+  },
+  {
+    text: "安卓 Android",
+    url: "https://developer.android.google.cn/reference/packages",
+  },
+  {
+    text: "苹果 IOS",
+    url: "https://developer-rno.apple.com/cn/develop/",
   },
   {
     text: "iconfont 矢量图标",
